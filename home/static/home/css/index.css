@@ -1,0 +1,47 @@
+/* Hero */
+
+.horizontal-list{
+    font-family: var(--code-font);
+    color: var(--code-colour);
+    display: inline-flex;
+    gap: 1rem;
+    align-items: center;
+    width: fit-content;
+    border: 2px solid var(--code-colour);
+    border-radius: 50px;
+    
+}
+
+.horizontal-list li{
+    width: 150px;
+}
+
+ul li p{
+    margin-bottom: 0;
+}
+
+.powered-by{
+    margin-top: 9rem;
+}
+h2{
+    font-size: 70px;
+}
+h3 {
+  font-size: 60px;
+    background: -webkit-linear-gradient(#00C2A8, #F72585);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-start{
+    border: 2px solid var(--primary-cta);
+    color: var(--primary-cta);
+    background-color: var(--primary-text-color);
+    font-family: var(--code-font);
+}
+
+.btn-start:hover{
+    border: 1px solid var(--primary-cta);
+    color: var(--primary-cta);
+}

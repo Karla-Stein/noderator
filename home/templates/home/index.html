@@ -1,11 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Hello
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'home/css/index.css' %}">
+{% endblock %}
+
+{% block content %}
+<section id="hero">
+    <div class="container powered-by">
+        <div class="row justify-content-start">
+            <div class="col-6 col-md-3 mt-3">
+                <ul class="horizontal-list">
+                    <li>
+                        <p>Powered by n8n</p>
+                    </li>
+                    <li>
+                        <p>Built with AI</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-10  titles">
+                <h2>Automation Workflows,</h2>
+                <h3 class="gradient">built by AI.</h3>
+            </div>
+            <div>
+                <p>
+                    Describe any automation in plain English. Noderator delivers a production-ready n8n workflow and comprehensive documentation - in seconds.
+                </p>
+                <a href="#" class="btn btn-start mt-2">Start building <i class="fa-solid fa-arrow-right"></i></a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

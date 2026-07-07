@@ -1,0 +1,83 @@
+/* CSS variables */
+:root {
+    --primary-font: "Bricolage Grotesque", sans-serif;
+    --secondary-font: "Inter", sans-serif;
+    --code-font: "JetBrains Mono", monospace;
+    --primary-background: #07060F;
+    --secondary-background: #130F24;
+    --tertiary-background: #2D1B4E;
+    --accent-color: #7B2FBE;
+    --primary-text-color: #E8EDF5;
+    --secondary-text-color: #6B5F8A;
+    --primary-cta: #F72585;
+    --code-colour: #00C2A8;
+}
+
+body {
+    background-color: var(--primary-background);
+    font-family: var(--secondary-font);
+    color: var(--primary-text-color);
+}
+
+.titles{
+    font-family: var(--primary-font);
+}
+
+/* Navbar */
+
+nav{
+    background-color: var(--primary-background);
+}
+.navbar-brand{
+    color: var(--primary-cta);
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.navbar-brand:hover{
+    color: var(--primary-cta);
+}
+
+nav a{
+    font-family: var(--code-font);
+    color: var(--primary-cta);
+}
+.nav-link {
+    color: var(--primary-cta);
+    font-family: var(--code-font);
+    font-size: large;
+}
+
+
+.nav-link.active {
+    color: var(--primary-cta);
+   
+}
+
+.nav-link.disabled {
+    color: var(--primary-cta);
+    opacity: 0.5;
+}
+
+.nav-link:hover{
+    color: var(--secondary-text-color);
+}
+
+.right-group{
+    color: var(--primary-cta);
+}
+
+nav .btn{
+    border: 1px solid var(--primary-cta);
+    color: var(--primary-cta);
+    font-family: var(--code-font);
+}
+
+nav .btn:hover{
+    border: 2px solid var(--primary-cta);
+    color: var(--primary-cta);
+    background-color: var(--primary-text-color);
+}
+
+
+
