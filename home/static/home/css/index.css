@@ -45,3 +45,28 @@ h3 {
     border: 1px solid var(--primary-cta);
     color: var(--primary-cta);
 }
+
+#workflow-demo-box{
+    border: 1px solid var(--tertiary-background);
+    background-color: var(--secondary-text-colour);
+    border-radius: 10px;
+    margin-top: 7rem;
+    height: 150px;
+}
+
+#workflow-demo-box p{
+    color: var(--secondary-text-color);
+}
+
+.cursor {
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}

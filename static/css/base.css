@@ -23,6 +23,10 @@ body {
     font-family: var(--primary-font);
 }
 
+.code-font{
+    font-family: var(--code-font);
+}
+
 /* Navbar */
 
 nav{

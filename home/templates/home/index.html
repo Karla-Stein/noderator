@@ -8,7 +8,7 @@
 {% block content %}
 <section id="hero">
     <div class="container powered-by">
-        <div class="row justify-content-start">
+        <div class="row justify-content-center">
             <div class="col-6 col-md-3 mt-3">
                 <ul class="horizontal-list">
                     <li>
@@ -22,20 +22,37 @@
         </div>
     </div>
     <div class="container mt-3">
-        <div class="row">
+        <div class="row justify-content-center text-center">
             <div class="col-10  titles">
                 <h2>Automation Workflows,</h2>
                 <h3 class="gradient">built by AI.</h3>
             </div>
             <div>
                 <p>
-                    Describe any automation in plain English. Noderator delivers a production-ready n8n workflow and comprehensive documentation - in seconds.
+                    Describe any automation in plain English. Noderator delivers a production-ready n8n workflow and
+                    comprehensive documentation - in seconds.
                 </p>
-                <a href="#" class="btn btn-start mt-2">Start building <i class="fa-solid fa-arrow-right"></i></a>
-
+                   <a href="#" class="btn btn-start mt-3 text-center">Start building <i
+                    class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-6">
+                <div id="workflow-demo-box">
+                    <p class="code-font mt-2 ms-3">Describe your Workflow</p>
+                    <span id="typing-text" class="ms-3"></span>
+                    <span class="cursor"> | </span>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super}}
+<script src="{% static 'home/js/index.js' %}"></script>
 {% endblock %}
