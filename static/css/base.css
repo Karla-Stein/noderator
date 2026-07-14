@@ -89,6 +89,19 @@ nav .btn:hover,
     background-color: var(--primary-text-color);
 }
 
+#offcanvas-toggler{
+    border: none;
+}
 
+.offcanvas{
+    background: linear-gradient(180deg, #07060F, #07060F, #F72585);
+}
+.offcanvas-title,
+.offcanvas .nav-link{
+    color: #E8EDF5;
+}
 
-
+.offcanvas-title:hover,
+.offcanvas .nav-link:hover{
+    color: #F72585;
+}
