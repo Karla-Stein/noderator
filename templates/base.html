@@ -55,10 +55,11 @@
       <!-- Right side placement -->
       <div class="right-group d-flex align-items-center gap-3 ms-auto">
         {% if user.is_authenticated %}
-        <a class="nav-link" href="#">Profile</a>
+        <a id="logout-btn" href="{% url 'account_logout' %}" class="btn">Log Out</a>
+        <a class="me-4 btn" href="#">Profile</a>
         {% else %}
-        <a id="signin-btn" href="#" class="btn">Sign In</a>
-        <a id="signup-btn" href="#" class="btn">Sign Up</a>
+        <a id="signin-btn" href="{% url 'account_login' %}" class="btn">Sign In</a>
+        <a id="signup-btn" href="{% url 'account_signup' %}" class="btn">Sign Up</a>
       </div>
       {% endif %}
       </div>
