@@ -71,9 +71,11 @@ h3 {
     }
 }
 
-#how-it-works{
-    margin-top: 200px;
-    margin-bottom: 400px;
+#how-it-works,
+#get-started{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
 }
 
 #how-it-works .card{
@@ -82,5 +84,16 @@ h3 {
     border: 1px solid #F72585;
     border-radius: 20px;
     color: white;
+}
+
+#get-started .card{
+    background-color: var(--secondary-background);
+    border: 1px solid #F72585;
+    border-radius: 20px;
+    color: white;
+}
+
+#get-started h5{
+    font-weight: 900;
 }
 
