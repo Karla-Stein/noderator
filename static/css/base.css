@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: var(--primary-background);
+    background: linear-gradient(180deg, #07060F, #07060F, #07060F, #F72585);
     font-family: var(--secondary-font);
     color: var(--primary-text-color);
 }
@@ -25,6 +25,14 @@ body {
 
 .code-font{
     font-family: var(--code-font);
+}
+
+.inter{
+    font-family: var(--secondary-font);
+}
+
+.primary-font{
+    font-family: var(--primary-font);
 }
 
 /* Navbar */

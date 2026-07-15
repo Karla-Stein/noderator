@@ -47,7 +47,7 @@ h3 {
 }
 
 #workflow-demo-box{
-    border: 1px solid var(--tertiary-background);
+    border: 1px solid #F72585;
     background-color: var(--secondary-text-colour);
     border-radius: 10px;
     margin-top: 7rem;
@@ -55,7 +55,7 @@ h3 {
 }
 
 #workflow-demo-box p{
-    color: var(--secondary-text-color);
+    color: #F72585;
 }
 
 .cursor {
@@ -70,3 +70,17 @@ h3 {
         opacity: 0;
     }
 }
+
+#how-it-works{
+    margin-top: 200px;
+    margin-bottom: 400px;
+}
+
+#how-it-works .card{
+    margin: 20px;
+    background-color: transparent;
+    border: 1px solid #F72585;
+    border-radius: 20px;
+    color: white;
+}
+
