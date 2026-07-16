@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'crispy_forms',
+    'crispy_bootstrap5',
     'home',
     'workflows',
 ]
@@ -94,9 +96,10 @@ SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
+CRISPY_ALLOWED_TEMPLATE_PACKS ="bootstrap5"
+CRISPY_TEMPLATE_PACK ="bootstrap5"
 
 WSGI_APPLICATION = 'noderator.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases

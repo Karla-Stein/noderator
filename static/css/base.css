@@ -82,7 +82,8 @@ nav a{
 nav .btn,
 #signup-btn,
 #signin-btn,
-#logout-btn{
+#logout-btn,
+#submit-button{
     border: 1px solid var(--primary-cta);
     color: var(--primary-cta);
     font-family: var(--code-font);
@@ -91,7 +92,8 @@ nav .btn,
 nav .btn:hover,
 #signup-btn:hover,
 #signin-btn:hover,
-#logout-btn:hover{
+#logout-btn:hover,
+#submit-button:hover{
     border: 2px solid var(--primary-cta);
     color: var(--primary-cta);
     background-color: var(--primary-text-color);
